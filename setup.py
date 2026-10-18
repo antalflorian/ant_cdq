@@ -23,7 +23,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'smart_braking = smart_braking_assistant.smart_braking_assistant:main', 
+            'smart_braking = smart_braking_assistant.smart_braking_assistant:main',
+            'simulator = smart_braking_assistant.obstacle_simulator:main', 
         ],
     },
 )
