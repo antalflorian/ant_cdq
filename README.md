@@ -9,11 +9,12 @@ Ez a csomag egy önvezető járművekhez készült intelligens fékasszisztenst 
 
 ## Build
 A package a következő parancssal buildelhető:
-```bash```
+```bash
 colcon build --packages-select smart_braking_assistant
-
+```
 ## Futtatás
 A teljes rendszer (a szimulátorral és a vezérlővel együtt) egyetlen paranccsal elindítható:
 
 ```bash
 ros2 launch smart_braking_assistant smart_braking.launch.py
+```
