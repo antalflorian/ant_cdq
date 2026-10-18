@@ -9,7 +9,7 @@ def generate_launch_description():
             name='smart_braking_node',
             output='screen',
             parameters=[
-                {'max_speed': 5.0},
+                {'max_speed': 5.0},         #ezek a valuek dinamikusan állíthatóak, lásd -> README.md
                 {'safe_distance': 10.0},
                 {'critical_distance': 2.0}
             ]
