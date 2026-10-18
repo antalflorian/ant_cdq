@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 from glob import glob
 import os
 
-package_name = 'ros2_py_template'
+package_name = 'smart_braking_assistant'
 
 setup(
     name=package_name,
@@ -23,7 +23,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'smart_braking = ros2_py_template.smart_braking_assistant:main', 
+            'smart_braking = smart_braking_assistant.smart_braking_assistant:main', 
         ],
     },
 )
