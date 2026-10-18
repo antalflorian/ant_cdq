@@ -8,6 +8,11 @@ A projekt az "Autonóm járművek és robotok programozása" tárgy kis beadand�
 * **obstacle_simulator:** Tesztelő node, amely folyamatosan közeledő akadályt szimulál a teszteléshez.
 * **Paraméterezhetőség:** A biztonságos távolság és a sebesség ROS 2 paraméterekként dinamikusan állítható a `launch` fájlban.
 
+## Build
+A package a következő parancssal buildelhető:
+```bash
+colcon build --packages-select smart_braking_assistant
+
 ## Futtatás
 A teljes rendszer (a szimulátorral és a vezérlővel együtt) egyetlen paranccsal elindítható:
 
